@@ -11,7 +11,7 @@ This repository contains the source code for an eCommerce website built using Re
 
 - Product Pages: Separate pages for home's, office's, and outdoor' categories showcasing a list of products.
 
-- Single Product Page: Detailed product page with product image gallery, pricing, description, related product recommendations, and AR Visualization.
+- Single Product Page: Detailed product page with product image gallery, pricing, description, related product recommendations, and **AR Visualization**.
 
 - Shopping Cart Page: Displays the products added to the cart and allows users to review and manage their cart.
 
