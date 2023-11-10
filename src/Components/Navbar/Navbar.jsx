@@ -14,13 +14,13 @@ const Navbar = () => {
         <div className='navbar'>
             <div className='nav-logo'>
                 <Link to={"/"}><img src={logo} alt="" /></Link>
-                <Link to={"/"}><p>SHOPPER</p></Link>
+                <Link to={"/"}><p>CozyCraft</p></Link>
             </div>
             <ul className='nav-menu'>
                 <li onClick={() => {setMenu("Shop")}}><Link style={{textDecoration:"none"}} to='/'>Shop</Link>{menu==="Shop"?<hr/>:<></>}</li>
-                <li onClick={() => {setMenu("Men")}}><Link style={{textDecoration:"none"}} to='/mens'>Men</Link>{menu==="Men"?<hr/>:<></>}</li>
-                <li onClick={() => {setMenu("Women")}}><Link style={{textDecoration:"none"}} to='/womens'>Women</Link>{menu==="Women"?<hr/>:<></>}</li>
-                <li onClick={() => {setMenu("Kids")}}><Link style={{textDecoration:"none"}} to='/kids'>Kids</Link>{menu==="Kids"?<hr/>:<></>}</li>
+                <li onClick={() => {setMenu("Home Furniture")}}><Link style={{textDecoration:"none"}} to='/Home Furniture'>Home Furniture</Link>{menu==="Home Furniture"?<hr/>:<></>}</li>
+                <li onClick={() => {setMenu("Office Furniture")}}><Link style={{textDecoration:"none"}} to='/Office Furniture'>Office Furniture</Link>{menu==="Office Furniture"?<hr/>:<></>}</li>
+                <li onClick={() => {setMenu("Outdoors Furniture")}}><Link style={{textDecoration:"none"}} to='/Outdoors Furniture'>Outdoors Furniture</Link>{menu==="Outdoors Furniture"?<hr/>:<></>}</li>
             </ul>
             <div className='nav-login-cart'>
                 <Link to="/login"><button>Login</button></Link>

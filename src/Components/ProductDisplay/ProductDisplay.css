@@ -83,6 +83,10 @@
     cursor: pointer;
 }
 
+.productdisplay-right-sizes .selected {
+    border-color: #007bff; /* Change the border color to your preferred highlight color */
+}
+
 .productdisplay-right button {
     padding: 20px 40px;
     width: 200px;
