@@ -20,5 +20,4 @@ This repository contains the source code for an eCommerce website built using Re
 **Under Construction**
 - AR Visualiztion for products
 - CSS style
-- Size selection
 ...
