@@ -1,68 +1,68 @@
-import p1_img from "./product_12.png";
-import p2_img from "./product_35.png";
-import p3_img from "./product_14.png";
-import p4_img from "./product_8.png";
-import p5_img from "./product_15.png";
-import p6_img from "./product_2.png";
-import p7_img from "./product_17.png";
-import p8_img from "./product_28.png";
+import p1_img from "./product12.png";
+import p2_img from "./product35.png";
+import p3_img from "./product16.png";
+import p4_img from "./product8.png";
+import p5_img from "./product20.png";
+import p6_img from "./product2.png";
+import p7_img from "./product14.png";
+import p8_img from "./product31.png";
 
 let new_collections = [
   {
     id: 12,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Almost Perfect Neat Filing Cabinet",
     image: p1_img,
-    new_price: 50.0,
-    old_price: 80.5,
+    new_price: 585.0,
+    old_price: 620.5,
   },
   {
     id: 35,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    name: "Weatherly Counter-Height Armchair, Whitewash",
     image: p2_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 285.0,
+    old_price: 320.5,
   },
   {
-    id: 14,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    id: 16,
+    name: "Pixie End Table",
     image: p3_img,
-    new_price: 60.0,
-    old_price: 100.5,
+    new_price: 185.0,
+    old_price: 420.5,
   },
   {
     id: 8,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "22 D Vertical 2-Drawer File Cabinet, Black",
     image: p4_img,
-    new_price: 100.0,
-    old_price: 150.0,
+    new_price: 135.0,
+    old_price: 220.5,
   },
   {
-    id: 15,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    id: 20,
+    name: "Flambe Blue Blackout Room Darkening Curtain, Set of 2, 50x96",
     image: p5_img,
-    new_price: 50.0,
-    old_price: 80.5,
-  },
-  {
-    id: 2,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    image: p6_img,
-    new_price: 85.0,
+    new_price: 95.0,
     old_price: 120.5,
   },
   {
-    id: 17,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    image: p7_img,
-    new_price: 60.0,
-    old_price: 100.5,
+    id: 2,
+    name: "HON® 510 25 D Vertical 4-Drawer File Cabinet, Black",
+    image: p6_img,
+    new_price: 485.0,
+    old_price: 520.5,
   },
   {
-    id: 28,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    id: 14,
+    name: "Cannon Drink Table, 1A",
+    image: p7_img,
+    new_price: 285.0,
+    old_price: 420.5,
+  },
+  {
+    id: 31,
+    name: "Nancy Oudoor Modern Wood Chaise Lounge With Cushion, Set of 2, Teak/Cream",
     image: p8_img,
-    new_price: 100.0,
-    old_price: 150.0,
+    new_price: 585.0,
+    old_price: 620.5,
   },
 ];
 
