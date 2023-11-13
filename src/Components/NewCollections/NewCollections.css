@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.625rem;
-  margin-bottom: 100px;
+  margin: 8rem 0;
+  width: 100%;
 }
 
 .new-collections h1 {
@@ -20,8 +20,11 @@
 }
 
 .collections {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-top: 3.125rem;
-  gap: 1.875rem;
+  margin-top: 4rem;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.875rem; /* 可选：定义格子之间的间隔 */
 }

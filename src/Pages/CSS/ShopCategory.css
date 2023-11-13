@@ -12,7 +12,7 @@
 }
 
 .shopcategory-sort {
-  padding: 0.625rem 20px;
+  padding: 0.625rem 1.25rem;
   border-radius: 40px;
   border: 1px solid #888;
 }
@@ -22,7 +22,7 @@
 }
 
 .shopcategory-products {
-  margin: 20px 70px;
+  margin: 1.25rem 70px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   row-gap: 80px;
