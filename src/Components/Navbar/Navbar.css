@@ -8,7 +8,17 @@
 .nav-logo {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1.25rem;
+}
+
+.nav-logo a {
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 .nav-logo p {
