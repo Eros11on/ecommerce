@@ -1,11 +1,15 @@
-.item {
-  width: 20%;
+.item a {
+  text-decoration: none;
+  color: black;
 }
 
 .item p {
   margin: 6px 0px;
 }
-
+.item-img {
+  width: 15rem;
+  height: 15rem;
+}
 .item-prices {
   display: flex;
   gap: 1.25rem;
