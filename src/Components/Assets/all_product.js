@@ -174,7 +174,7 @@ let all_product = [
   },
   {
     id: 18,
-    name: "nuLOOM Marshall Metal Lamp",
+    name: "LOOM Marshall Metal Lamp",
     category: "Home Furniture",
     image: p18_img,
     new_price: 85.0,
