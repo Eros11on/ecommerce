@@ -3,13 +3,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3.125rem;
+  gap: 2rem;
 }
 
 .footer-logo {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1.25rem;
+}
+
+.footer-logo a {
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 .footer-logo p {
@@ -23,7 +33,7 @@
   list-style: none;
   gap: 3.125rem;
   color: #252525;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .footer-links li {
@@ -33,6 +43,7 @@
 .footer-social-icon {
   display: flex;
   gap: 1.25rem;
+  cursor: pointer;
 }
 
 .footer-icons-container {
@@ -50,13 +61,13 @@
   width: 100%;
   margin-bottom: 1.875rem;
   color: #1a1a1a;
-  font-size: 1.25rem;
+  font-size: 0.75rem;
 }
 
 .footer-copyright hr {
   width: 80%;
   border: none;
   border-radius: 0.625rem;
-  height: 3px;
+  height: 1px;
   background: #c7c7c7;
 }
