@@ -1,13 +1,20 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import './ProductDisplay.css'
 import start_icon from "../Assets/star_icon.png"
 import start_dull_icon from "../Assets/star_dull_icon.png"
 import { ShopContext } from '../../Context/ShopContext';
+import AR from '../AR/AR.jsx'
 
 const ProductDisplay = (props) => {
     const { product } = props
     const {addToCart} = useContext(ShopContext)
     const [selectedSize, setSelectedSize] = useState(null)
+
+    const loadAR = () => {
+        let ARInstance = new AR();
+        ARInstance.showChair(6);
+    }
+    
     return (
         <div className='productdisplay'>
             <div className="productdisplay-left">
@@ -61,6 +68,7 @@ const ProductDisplay = (props) => {
                 </div>
             </div>
                 <button onClick={() => {addToCart(product.id)}}>ADD TO CART</button>
+                <button onClick={() => {loadAR()}}>VIEW IN AR</button>
                 <p className='productdisplay-right-category'><span>Category :</span>{product.category}</p>
                 <p className='productdisplay-right-category'><span>Tags :</span>Modern , Latest</p>
             </div>
