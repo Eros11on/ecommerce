@@ -101,7 +101,7 @@ const ProductDisplay = (props) => {
                         <div className="popup-container" style={{ textAlign: 'center' }}>
                             <span className="close-button" onClick={hidePopup}>&times;</span>
                             <img style={{ height: 300, width: 300 }} src={chairQRCode()} alt="QR Code" />
-                            <p>Scan this QR code to view this product in VR</p>
+                            <p>Scan this QR code to view this product in AR</p>
                         </div>
                     )}
                 </> : null}
