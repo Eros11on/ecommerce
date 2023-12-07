@@ -1,7 +1,7 @@
-import p1_img from "./product1.png";
-import p2_img from "./product2.png";
-import p3_img from "./product3.png";
-import p4_img from "./product4.png";
+import p1_img from "./product1.jpg";
+import p2_img from "./product2.jpg";
+import p3_img from "./product3.jpg";
+import p4_img from "./product4.jpg";
 import p5_img from "./product5.png";
 import p6_img from "./product6.png";
 import p7_img from "./product7.png";
@@ -38,8 +38,8 @@ import p36_img from "./product36.png";
 let all_product = [
   {
     id: 1,
-    name: "Sentry®Safe Fire-Safe® Electronic Commercial Safe, 638 Lb., 5.8 Cu. Ft.",
-    category: "Office Furniture",
+    name: "White Dining Chair With Wooden Legs(Set of 4)",
+    category: "Home Furniture",
     image: p1_img,
     new_price: 1250.0,
     old_price: 1480.5,

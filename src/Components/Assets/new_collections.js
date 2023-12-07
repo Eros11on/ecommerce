@@ -3,7 +3,7 @@ import p2_img from "./product35.png";
 import p3_img from "./product16.png";
 import p4_img from "./product8.png";
 import p5_img from "./product20.png";
-import p6_img from "./product2.png";
+import p6_img from "./product2.jpg";
 import p7_img from "./product14.png";
 import p8_img from "./product31.png";
 

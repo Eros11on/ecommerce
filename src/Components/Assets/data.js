@@ -1,20 +1,20 @@
-import p1_img from "./product1.png";
-import p2_img from "./product2.png";
-import p3_img from "./product3.png";
-import p4_img from "./product4.png";
+import p1_img from "./product1.jpg";
+import p2_img from "./product2.jpg";
+import p3_img from "./product3.jpg";
+import p4_img from "./product4.jpg";
 
 let data_product = [
   {
     id: 1,
-    name: "Sentry®Safe Fire-Safe® Electronic Commercial Safe, 638 Lb., 5.8 Cu. Ft.",
-    category: "Office Furniture",
+    name: "White Dining Chair With Wooden Legs(Set of 4)",
+    category: "Home Furniture",
     image: p1_img,
     new_price: 1250.0,
     old_price: 1480.5,
   },
   {
     id: 2,
-    name: "HON® 510 25 D Vertical 4-Drawer File Cabinet, Black",
+    name: "Faux Leather Cafeteria Dining Side Chair",
     category: "Office Furniture",
     image: p2_img,
     new_price: 485.0,
@@ -22,7 +22,7 @@ let data_product = [
   },
   {
     id: 3,
-    name: "Realspace® Vista 60 H 4-Shelf Glass/Metal Bookcase, Clear/Silve",
+    name: "Finch Fox Velvet Eames Replica Cushioned Dining Chair/Cafe Chair/Side Chair/Accent Chair",
     category: "Office Furniture",
     image: p3_img,
     new_price: 124.0,
@@ -30,7 +30,7 @@ let data_product = [
   },
   {
     id: 4,
-    name: "Bush Business Furniture Studio C 73 H 5-Shelf Bookcase With Doors, Hansen Cherry, Standard Delivery",
+    name: "Finch Fox Eames Replica Faux Leather Living Room Dining Chair for Cafeteria, Side Chair",
     category: "Office Furniture",
     image: p4_img,
     new_price: 369.0,
