@@ -223,7 +223,7 @@ let all_product = [
   {
     id: 24,
     name: "Orion Painting",
-    category: "Home Furniture",
+    category: "Office Furniture",
     image: p24_img,
     new_price: 685.0,
     old_price: 720.5,
